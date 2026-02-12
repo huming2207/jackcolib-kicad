@@ -5447,7 +5447,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JackcoLib:SoulCore"
 			(at 0 0 0)
 			(effects
 				(font
