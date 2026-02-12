@@ -6589,7 +6589,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JackcoLib:TF-021B-H265"
 			(at 0 0 0)
 			(effects
 				(font
