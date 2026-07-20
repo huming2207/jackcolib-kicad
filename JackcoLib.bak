@@ -3098,7 +3098,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 30.48 53.34 270)
 				(length 7.62)
 				(name "GND"
@@ -3116,7 +3116,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 25.4 53.34 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -3134,7 +3134,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 20.32 53.34 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -3152,7 +3152,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 15.24 53.34 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -3170,7 +3170,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 10.16 53.34 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -3188,7 +3188,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 5.08 53.34 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -3206,7 +3206,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 0 53.34 270)
 				(length 7.62)
 				(name "PWRKEY"
@@ -3224,7 +3224,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -5.08 53.34 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -3242,7 +3242,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -10.16 53.34 270)
 				(length 7.62)
 				(name "ADC0"
@@ -3260,7 +3260,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -15.24 53.34 270)
 				(length 7.62)
 				(name "GND"
@@ -3278,7 +3278,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -20.32 53.34 270)
 				(length 7.62)
 				(name "USIM1_DATA"
@@ -3296,7 +3296,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -25.4 53.34 270)
 				(length 7.62)
 				(name "USIM1_RST"
@@ -3314,7 +3314,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -30.48 53.34 270)
 				(length 7.62)
 				(name "USIM1_CLK"
@@ -3332,7 +3332,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -53.34 20.32 0)
 				(length 7.62)
 				(name "USIM1_VDD"
@@ -3350,7 +3350,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -53.34 15.24 0)
 				(length 7.62)
 				(name "RESET_N"
@@ -3368,7 +3368,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -53.34 10.16 0)
 				(length 7.62)
 				(name "NET_STATUS"
@@ -3386,7 +3386,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -53.34 5.08 0)
 				(length 7.62)
 				(name "MAIN_RXD"
@@ -3404,7 +3404,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -53.34 0 0)
 				(length 7.62)
 				(name "MAIN_TXD"
@@ -3422,7 +3422,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -53.34 -5.08 0)
 				(length 7.62)
 				(name "MAIN_DTR"
@@ -3440,7 +3440,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -53.34 -10.16 0)
 				(length 7.62)
 				(name "MAIN_RI"
@@ -3458,7 +3458,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -53.34 -15.24 0)
 				(length 7.62)
 				(name "MAIN_DCD"
@@ -3476,7 +3476,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -53.34 -20.32 0)
 				(length 7.62)
 				(name "MAIN_CTS"
@@ -3494,7 +3494,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -30.48 -53.34 90)
 				(length 7.62)
 				(name "MAIN_RTS"
@@ -3512,7 +3512,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at -25.4 -53.34 90)
 				(length 7.62)
 				(name "VDD_EXT"
@@ -3530,7 +3530,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -20.32 -53.34 90)
 				(length 7.62)
 				(name "STATUS"
@@ -3548,7 +3548,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -15.24 -53.34 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -3566,7 +3566,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -10.16 -53.34 90)
 				(length 7.62)
 				(name "GND"
@@ -3584,7 +3584,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -5.08 -53.34 90)
 				(length 7.62)
 				(name "AUX_RXD"
@@ -3602,7 +3602,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 0 -53.34 90)
 				(length 7.62)
 				(name "AUX_TXD"
@@ -3620,7 +3620,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 5.08 -53.34 90)
 				(length 7.62)
 				(name "PCM_CLK"
@@ -3638,7 +3638,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 10.16 -53.34 90)
 				(length 7.62)
 				(name "PCM_SYNC"
@@ -3656,7 +3656,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 15.24 -53.34 90)
 				(length 7.62)
 				(name "PCM_DIN"
@@ -3674,7 +3674,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 20.32 -53.34 90)
 				(length 7.62)
 				(name "PCM_DOUT"
@@ -3692,7 +3692,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 25.4 -53.34 90)
 				(length 7.62)
 				(name "GND"
@@ -3710,7 +3710,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 30.48 -53.34 90)
 				(length 7.62)
 				(name "ANT_MAIN"
@@ -3728,7 +3728,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 53.34 -20.32 180)
 				(length 7.62)
 				(name "GND"
@@ -3746,7 +3746,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 53.34 -15.24 180)
 				(length 7.62)
 				(name "GND"
@@ -3764,7 +3764,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at 53.34 -10.16 180)
 				(length 7.62)
 				(name "DBG_RXD"
@@ -3782,7 +3782,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 53.34 -5.08 180)
 				(length 7.62)
 				(name "DBG_TXD"
@@ -3800,7 +3800,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 53.34 0 180)
 				(length 7.62)
 				(name "GND"
@@ -3818,7 +3818,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 53.34 5.08 180)
 				(length 7.62)
 				(name "GND"
@@ -3836,7 +3836,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 53.34 10.16 180)
 				(length 7.62)
 				(name "VBAT"
@@ -3854,7 +3854,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 53.34 15.24 180)
 				(length 7.62)
 				(name "VBAT"
@@ -3872,7 +3872,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 20.32 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -3890,7 +3890,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -53.34 25.4 0)
 				(length 7.62)
 				(name "GND"
@@ -3908,7 +3908,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -53.34 -25.4 0)
 				(length 7.62)
 				(name "ADC1"
@@ -3926,7 +3926,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 -25.4 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -3944,7 +3944,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 53.34 25.4 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -3976,7 +3976,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 20.32 48.26 270)
 				(length 7.62)
 				(name "GND"
@@ -3994,7 +3994,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 15.24 48.26 270)
 				(length 7.62)
 				(name "GND"
@@ -4012,7 +4012,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 10.16 48.26 270)
 				(length 7.62)
 				(name "GND"
@@ -4030,7 +4030,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 5.08 48.26 270)
 				(length 7.62)
 				(name "GND"
@@ -4048,7 +4048,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 0 48.26 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4066,7 +4066,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -5.08 48.26 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4084,7 +4084,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -10.16 48.26 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4102,7 +4102,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -15.24 48.26 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4120,7 +4120,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -20.32 48.26 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4138,7 +4138,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -48.26 10.16 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4156,7 +4156,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -48.26 5.08 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4174,7 +4174,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -48.26 0 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4192,7 +4192,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -48.26 -5.08 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4210,7 +4210,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -48.26 -10.16 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4228,7 +4228,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -20.32 -48.26 90)
 				(length 7.62)
 				(name "USB_DP"
@@ -4246,7 +4246,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at -15.24 -48.26 90)
 				(length 7.62)
 				(name "USB_DM"
@@ -4264,7 +4264,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -10.16 -48.26 90)
 				(length 7.62)
 				(name "USB_VBUS"
@@ -4282,7 +4282,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at -5.08 -48.26 90)
 				(length 7.62)
 				(name "USIM2_CLK"
@@ -4300,7 +4300,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin output line
 				(at 0 -48.26 90)
 				(length 7.62)
 				(name "USIM2_RST"
@@ -4318,7 +4318,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin bidirectional line
 				(at 5.08 -48.26 90)
 				(length 7.62)
 				(name "USIM2_DATA"
@@ -4336,7 +4336,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_out line
 				(at 10.16 -48.26 90)
 				(length 7.62)
 				(name "USIM2_VDD"
@@ -4354,7 +4354,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin open_collector line
 				(at 15.24 -48.26 90)
 				(length 7.62)
 				(name "I2C_SDA"
@@ -4372,7 +4372,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin open_collector line
 				(at 20.32 -48.26 90)
 				(length 7.62)
 				(name "I2C_SCL"
@@ -4390,7 +4390,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 48.26 -10.16 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -4408,7 +4408,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 48.26 -5.08 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -4426,7 +4426,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 48.26 0 180)
 				(length 7.62)
 				(name "GND"
@@ -4444,7 +4444,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 48.26 5.08 180)
 				(length 7.62)
 				(name "GND"
@@ -4462,7 +4462,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at 48.26 10.16 180)
 				(length 7.62)
 				(name "GND"
@@ -4480,7 +4480,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 25.4 48.26 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4498,7 +4498,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -25.4 48.26 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4516,7 +4516,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -48.26 15.24 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4534,7 +4534,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -48.26 -15.24 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4552,7 +4552,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -25.4 -48.26 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -4570,7 +4570,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 25.4 -48.26 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -4588,7 +4588,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 48.26 -15.24 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -4606,7 +4606,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 48.26 15.24 180)
 				(length 7.62)
 				(name "RESERVED"
@@ -4638,7 +4638,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 33.02 270)
 				(length 7.62)
 				(name "GND"
@@ -4656,7 +4656,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -12.7 33.02 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4674,7 +4674,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -17.78 33.02 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4692,7 +4692,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -22.86 33.02 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4710,7 +4710,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -27.94 33.02 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4728,7 +4728,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -33.02 33.02 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4746,7 +4746,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 33.02 270)
 				(length 7.62)
 				(name "USIM1_DET"
@@ -4764,7 +4764,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -43.18 33.02 270)
 				(length 7.62)
 				(name "RESERVED"
@@ -4782,7 +4782,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -43.18 -33.02 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -4800,7 +4800,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin input line
 				(at -38.1 -33.02 90)
 				(length 7.62)
 				(name "USB_BOOT"
@@ -4818,7 +4818,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -33.02 -33.02 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -4836,7 +4836,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -27.94 -33.02 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -4854,7 +4854,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -22.86 -33.02 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -4872,7 +4872,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -17.78 -33.02 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -4890,7 +4890,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -12.7 -33.02 90)
 				(length 7.62)
 				(name "RESERVED"
@@ -4908,7 +4908,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -7.62 -33.02 90)
 				(length 7.62)
 				(name "GND"
@@ -4926,7 +4926,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -68.58 5.08 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4944,7 +4944,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -68.58 0 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4962,7 +4962,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at -68.58 -5.08 0)
 				(length 7.62)
 				(name "RESERVED"
@@ -4994,7 +4994,7 @@
 					(type background)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 22.86 270)
 				(length 7.62)
 				(name "GND"
@@ -5012,7 +5012,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -10.16 22.86 270)
 				(length 7.62)
 				(name "GND"
@@ -5030,7 +5030,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -15.24 22.86 270)
 				(length 7.62)
 				(name "GND"
@@ -5048,7 +5048,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -15.24 -22.86 90)
 				(length 7.62)
 				(name "GND"
@@ -5066,7 +5066,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -10.16 -22.86 90)
 				(length 7.62)
 				(name "GND"
@@ -5084,7 +5084,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -5.08 -22.86 90)
 				(length 7.62)
 				(name "GND"
